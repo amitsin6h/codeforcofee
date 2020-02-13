@@ -1,0 +1,36 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+body {
+  padding-top: 56px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hello-text{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.bd-title {
+  margin-top: 10px;
+  margin-bottom: .5rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bmc-button img {
+  height: 34px !important;
+  width: 35px !important;
+  margin-bottom: 1px !important;
+  box-shadow: none !important;
+  border: none !important;
+  vertical-align: middle !important;
+}
