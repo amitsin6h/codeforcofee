@@ -142,6 +142,29 @@
       a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
   </script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyABp83mqxcgqaVI3NruiI-1ZSDqGxQgK4s",
+      authDomain: "codeforcoffee-23676.firebaseapp.com",
+      databaseURL: "https://codeforcoffee-23676.firebaseio.com",
+      projectId: "codeforcoffee-23676",
+      storageBucket: "codeforcoffee-23676.appspot.com",
+      messagingSenderId: "639721868675",
+      appId: "1:639721868675:web:9db85f44fdf201c6303ab6",
+      measurementId: "G-704ZD0RRLK"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 </body>
 
 </html>
